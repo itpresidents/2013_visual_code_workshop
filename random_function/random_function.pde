@@ -9,6 +9,6 @@ void setup() {
 }
 
 void circle(float x, float y, float d, float c, float a) {  
-  fill(10, 100, c, a);
+  fill(200, 100, c, a);
   ellipse(x, y, d, d);
 }

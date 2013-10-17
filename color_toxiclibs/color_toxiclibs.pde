@@ -10,7 +10,7 @@ void setup() {
   smooth();
   
   // to create colors from a color theory, first you must pick a base color
-  TColor col = TColor.newHSV(.25, 1, 1);
+  TColor col = TColor.newHSV(.0, 1, 1);
   
   /* 
     Then you need to pick a strategy. These are the strategies you can use:
@@ -27,7 +27,7 @@ void setup() {
     TriadTheoryStrategy
    */
 
-  ColorTheoryStrategy s = new AnalogousStrategy();
+  ColorTheoryStrategy s = new MonochromeTheoryStrategy();
   
   // now get a list of colors from the base color and this strategy
   // this will only be a small list of colors (3 for analogous, etc)
